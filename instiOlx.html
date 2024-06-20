@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insti Olx</title>
+    <link rel="stylesheet" href="instiOlx_styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">InstiOLX</div>
+        <div class="navbar">
+            <a href="">home</a>
+            <a href="">category</a>
+            <a href="">login</a>
+            <a href="">+sell</a>
+        </div>
+    </header>
+    <img class="instiolx-image" src="https://github.com/Abijith27UK/Summer-School-2024/blob/patch-1/Session_1/InstiOLX_wall2.01.png?raw=true" alt="instiOlx logo">
+    
+    <div class="uploading">
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/*" id="input-file" hidden>
+            <div id="img-view">
+                <img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-1/254000/90-512.png" alt="icon">
+                <p>Drag and drop or Click here <br>to upload image</p>
+                <span>Upload any images from desktop</span>
+            </div>
+        </label>
+       
+    </div>
+    <form>
+    <div class="container">
+        
+            <div class="fo1">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+        
+                <br>
+                <label for="description">description:</label><br>
+                <textarea name="description" rows="10px" columns="30px">Enter here...</textarea>
+                <br>
+        
+                <label for="price">price:</label>
+                <input type="text" id="price" name="price"><br>
+        
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br>
+        
+                <label for="Bprice">Buying price:</label>
+                <input type="text" id="Bprice" name="Bprice"><br>
+            
+            </div>
+    
+    <div class="fo2">
+        
+        <label for="phone">phone number:</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <label for="details">Details of Product:</label>
+        <textarea name="details" rows="10px" columns="30px">Enter here...</textarea>
+        <br>
+        <label for="details">Enter Location:</label>
+        <textarea name="address" rows="10px" columns="30px">Enter here...</textarea>
+        <br>
+    </div>
+    </div>
+    <button class="button">Post</button>
+    </form>
+    
+   <script src="instiOlxJS.js"></script> 
+
+</body>
+</html>
